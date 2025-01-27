@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vaper</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #0077cc;
+            color: white;
+            padding: 20px 0;
+        }
+        header svg {
+            width: 50px;
+            height: 50px;
+        }
+        section {
+            margin: 20px auto;
+            max-width: 800px;
+        }
+        footer {
+            margin-top: 30px;
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            font-size: 0.9em;
+        }
+        video, iframe {
+            width: 100%;
+            max-width: 800px;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Jan Periago</h1>
+        <!-- Logotip en format SVG -->
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+            <circle cx="50" cy="50" r="40" stroke="white" stroke-width="5" fill="#0077cc" />
+            <text x="50%" y="55%" text-anchor="middle" font-size="20px" fill="white" font-family="Arial">LOGO</text>
+        </svg>
+    </header>
+
+    <section>
+        <h2>¿Es VAPEAR mejor que FUMAR? TODA la VERDAD sobre los CIGARRILLOS ELECTRÓNICOS</h2>
+        
+        <!-- Vídeo incrustat amb iframe -->
+        <iframe src="https://www.youtube.com/watch?v=eEdkHosnVy4" frameborder="0" allowfullscreen></iframe>
+        
+        <!-- Vídeo amb HTML5 -->
+        <video controls>
+            <source src="video.mp4" type="video/mp4">
+            <source src="video.webm" type="video/webm">
+            <p>El teu navegador no admet el format de vídeo HTML5.</p>
+        </video>
+    </section>
+
+    <footer>
+        <h3>Cançó de fons</h3>
+        <!-- Cançó de fons -->
+        <audio autoplay loop>
+            <source src="canco.mp3" type="audio/mpeg">
+            <source src="canco.ogg" type="audio/ogg">
+            <p>El teu navegador no suporta l'àudio HTML5.</p>
+        </audio>
+        <p>Origen: <a href="https://freemusicarchive.org/" target="_blank">Free Music Archive</a></p>
+        <p>Llicència: Creative Commons BY</p>
+    </footer>
+</body>
+</html>
