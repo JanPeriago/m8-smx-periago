@@ -1,0 +1,225 @@
+/* Estils generals */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #000;
+    padding: 20px;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    color: #fff;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Hero Section */
+#hero {
+    background-color: #1e1e1e;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#hero .hero-content h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+#hero .hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+#hero .btn-inscripcio {
+    background-color: #ff5f5f;
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-radius: 5px;
+}
+
+#hero .btn-inscripcio:hover {
+    background-color: #e03e3e;
+}
+
+/* Secció Horaris */
+#horaris {
+    padding: 50px 0;
+    text-align: center;
+}
+
+#horaris table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+#horaris table th, #horaris table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+#horaris table th {
+    background-color: #333;
+    color: white;
+}
+
+/* Secció Inscripció */
+#inscripcio {
+    background-color: #fff;
+    padding: 50px 0;
+}
+
+#inscripcio form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#inscripcio label {
+    display: block;
+    margin: 10px 0;
+}
+
+#inscripcio input, #inscripcio select, #inscripcio textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#inscripcio button {
+    background-color: #ff5f5f;
+    color: white;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+
+#inscripcio button:hover {
+    background-color: #e03e3e;
+}
+
+/* Secció Jocs */
+#jocs {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+}
+
+.cards-jocs {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    width: 250px;
+    margin: 20px;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.card h3 {
+    font-size: 1.5rem;
+    margin: 15px 0;
+}
+
+.card p {
+    font-size: 1rem;
+}
+
+.card .premi {
+    font-weight: bold;
+    color: #e03e3e;
+}
+
+/* Secció Patrocinadors */
+#patrocinadors {
+    background-color: #333;
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#patrocinadors .patrocinadors img {
+    margin: 10px;
+    width: 150px;
+}
+
+/* Footer */
+footer {
+    background-color: #000;
+    color: white;
+    padding: 20px 0;
+}
+
+footer .container {
+    text-align: center;
+}
+
+footer .xarxes a {
+    color: white;
+    font-size: 1.5rem;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+footer .xarxes a:hover {
+    color: #ff5f5f;
+}
+
+footer .navegacio-footer ul {
+    list-style: none;
+    padding: 20px 0;
+}
+
+footer .navegacio-footer ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+footer .navegacio-footer ul li a {
+    color: white;
+    text-decoration: none;
+}
+
